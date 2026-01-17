@@ -26,8 +26,7 @@ export async function classifyDomainLLM(userInput) {
       messages: [
         {
           role: 'system',
-          content:
-            'You are a classifier. Output ONLY one domain name from the allowed list. Do not include any explanation, just the domain name.'
+          content: 'You are a classifier. Output ONLY one domain name from the allowed list.'
         },
         {
           role: 'user',

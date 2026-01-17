@@ -1,12 +1,5 @@
 import XLSX from 'xlsx';
 import fs from 'fs';
-
-/**
- * Merge multiple Excel files into one Excel file
- * Schema is fixed and enforced
- */
-
-// 🔒 FIXED COLUMN ORDER (DO NOT CHANGE)
 const COLUMNS = [
   'question_id',
   'question',

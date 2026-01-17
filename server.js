@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(express.static('public'));
 
-// Middleware for logging
 app.use((req, res, next) => {
   const start = Date.now();
   res.on('finish', () => {
@@ -18,7 +17,6 @@ app.use((req, res, next) => {
   next();
 });
 
-// Input validation middleware
 function validateInput(req, res, next) {
   const { prompt, preference } = req.body;
 
@@ -73,12 +71,10 @@ app.post('/suggest-model', validateInput, async (req, res) => {
   }
 });
 
-// Health check endpoint
 app.get('/health', (req, res) => {
   res.json({ status: 'healthy', timestamp: new Date().toISOString() });
 });
 
-// 404 handler
 app.use((req, res) => {
   res.status(404).json({ error: 'Endpoint not found' });
 });

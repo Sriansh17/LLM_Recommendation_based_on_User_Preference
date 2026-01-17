@@ -25,7 +25,6 @@ function finalScore(m) {
 function selectModel(models, preference) {
   let ranked;
 
-  // ---------- RANKING LOGIC ----------
   if (preference === 'quality') {
     ranked = [...models].sort((a, b) => b.quality - a.quality);
   }
@@ -56,7 +55,6 @@ function selectModel(models, preference) {
     );
   }
 
-  // balanced (default)
   else {
     ranked = [...models].sort((a, b) =>
       finalScore(b) - finalScore(a)
@@ -66,7 +64,6 @@ function selectModel(models, preference) {
   const best = ranked[0];
   const runnerUp = ranked[1] || ranked[0];
 
-  // ---------- EXPLANATION ----------
   const qualityDelta = best.quality - runnerUp.quality;
   const costDeltaPct =
     ((runnerUp.cost - best.cost) / runnerUp.cost) * 100;

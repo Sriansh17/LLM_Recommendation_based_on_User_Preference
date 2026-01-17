@@ -3,9 +3,8 @@ import fs from 'fs';
 
 const EXCEL_FILE = 'combined_all_domains.xlsx';
 
-// Simple cache to reduce file reads
 const metricsCache = new Map();
-const CACHE_DURATION = 5 * 60 * 1000; // 5 minutes
+const CACHE_DURATION = 5 * 60 * 1000;
 
 const MODEL_NAME_MAP = {
   model_1: 'gpt-4o',
@@ -17,14 +16,12 @@ const MODEL_NAME_MAP = {
 };
 
 export function loadModelMetrics(domain) {
-  // Check cache first
   if (metricsCache.has(domain)) {
     const cached = metricsCache.get(domain);
     if (Date.now() - cached.timestamp < CACHE_DURATION) {
       console.log(`📦 Loaded metrics from cache for domain: ${domain}`);
       return cached.data;
     }
-    // Cache expired, remove it
     metricsCache.delete(domain);
   }
 
