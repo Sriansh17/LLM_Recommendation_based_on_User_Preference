@@ -1,0 +1,30 @@
+question_id,question,domain,difficulty_level,model_1_quality_score,model_2_quality_score,model_3_quality_score,model_4_quality_score,model_5_quality_score,model_6_quality_score,model_1_latency,model_2_latency,model_3_latency,model_4_latency,model_5_latency,model_6_latency,model_1_cost,model_2_cost,model_3_cost,model_4_cost,model_5_cost,model_6_cost
+7,A is taller than B and B is taller than C. Who is the shortest?,Reasoning,Basic,10.0,5.0,10.0,5.0,10.0,10.0,3998,890,902,709,2684,2626,0.2796,0.00381,0.05625,0.000795,0.4215,0.138
+4,"If the ratio of boys to girls is 2:3 and there are 20 boys, how many girls are there?",Reasoning,Basic,7.1,6.6,6.1,7.4,6.9,9.5,2022,4417,2115,2829,3393,4638,0.00742,0.2235,0.20225,0.010455,0.4095,1.686
+8,"Find the odd one out: 2, 4, 6, 9",Reasoning,Basic,8.0,10.0,9.0,8.0,8.0,9.0,3568,7354,1060,1109,2208,3222,0.00501,0.3156,0.07825,0.002535,0.336,0.2545
+1,What is 25% of 200?,Reasoning,Basic,10.0,8.0,9.0,9.0,10.0,8.0,4060,1274,1456,973,2571,2416,0.2937,0.0046,0.002955,0.05825,0.519,0.1005
+22,Statements: All laptops are computers. Some computers are tablets. Conclusions: Some laptops are tablets. Is the conclusion valid?,Reasoning,Complex,7.3,7.5,9.3,9.9,7.7,9.3,2951,3008,18493,6051,7653,8737,0.00605,0.243,0.4467,0.01254,2.0325,0.8025
+11,"What comes next: A, C, E, ?",Reasoning,Basic,4.0,10.0,10.0,10.0,10.0,10.0,16115,1737,1162,1817,3254,3004,0.2118,0.00544,0.08075,0.004665,0.582,0.1765
+6,"If today is Friday, what day will it be after 5 days?",Reasoning,Basic,9.2,6.9,9.7,7.4,6.0,8.8,4686,1658,1137,1959,2450,2730,0.2145,0.00522,0.09075,0.004245,0.1465,0.6045
+13,"If you buy an item for ₹100 and sell it for ₹120, what is the profit?",Reasoning,Basic,10.0,5.0,9.0,9.0,9.0,10.0,5238,1374,1216,1309,3033,3086,0.294,0.00372,0.075,0.00318,0.6705,0.2885
+14,Which is heavier: 2 kg of iron or 1 kg of cotton?,Reasoning,Basic,7.5,7.5,7.3,6.9,9.1,7.8,1161,9128,907,1209,6116,3489,0.00519,0.4353,0.048,0.0027,1.2165,0.253
+27,"If the probability of an event is 3/8, what is the probability of it not occurring?",Reasoning,Complex,7.6,7.7,6.0,9.3,7.8,6.9,1204,2863,4225,3565,3050,4174,0.00579,0.15425,0.2538,0.008415,0.9945,0.459
+12,"If 3 × 4 = 12, what is 12 ÷ 3?",Reasoning,Basic,4.0,9.0,10.0,9.0,10.0,10.0,1130,4758,1458,1803,2793,3613,0.00363,0.2724,0.09475,0.004425,0.2605,0.9165
+10,How many sides does a hexagon have?,Reasoning,Basic,9.0,10.0,9.0,9.0,9.0,9.0,1123,4497,568,755,2000,1777,0.00373,0.3144,0.01325,0.000795,0.0405,0.1215
+5,"Which number is the smallest: 0.5, 1/4, 0.75?",Reasoning,Basic,6.6,6.8,6.2,8.4,8.0,8.5,1541,5172,4177,1516,2890,2686,0.00629,0.3618,0.010755,0.13925,0.7995,0.2565
+9,"If all cats are animals and a tiger is a cat, is a tiger an animal?",Reasoning,Basic,9.1,8.2,6.1,7.0,9.4,9.8,5650,7416,1218,1361,3258,3467,0.00778,0.3699,0.0695,0.00243,0.7275,0.2475
+15,"If the average of 6 numbers is 25 and the average of first 5 is 20, find the 6th number.",Reasoning,Complex,6.0,6.0,8.0,8.0,10.0,9.0,1213,4089,1224,5711,6130,4863,0.00668,0.2994,0.151,0.01506,2.397,0.5115
+18,"If the selling price of an article is ₹540 after a loss of 10%, find the cost price.",Reasoning,Complex,1.0,10.0,1.0,10.0,10.0,10.0,2589,1557,12075,4796,6445,5422,0.00376,0.1655,0.2286,0.01335,0.7735,1.968
+20,"If x + y = 10 and x − y = 2, find x and y.",Reasoning,Complex,6.7,6.5,8.1,7.1,8.7,6.3,1345,5560,2305,4373,5717,4439,0.00407,0.279,0.245,0.01338,2.292,0.544
+23,"Five people are sitting in a row. A is to the left of B, but right of C. Who sits in the middle?",Reasoning,Complex,6.0,10.0,6.0,10.0,10.0,7.0,9757,2188,108296,7058,10605,4920,0.00571,0.17075,0.2631,0.020325,2.871,0.4795
+2,"If a train travels 60 km in 1 hour, how far will it travel in 2 hours?",Reasoning,Basic,8.0,10.0,9.0,9.0,9.0,9.0,1650,5582,1741,1180,2384,3045,0.00521,0.3156,0.00417,0.0895,0.498,0.281
+19,Two trains of lengths 150 m and 100 m run in opposite directions at 60 km/hr and 40 km/hr. Find the time they take to cross each other.,Reasoning,Complex,6.0,7.4,8.9,7.9,6.9,9.0,3809,8115,3826,10220,6959,6187,0.01059,0.2388,0.506,0.02592,2.691,0.9645
+3,"Find the next number in the series: 5, 10, 15, ?",Reasoning,Basic,10.0,5.0,9.0,9.0,9.0,10.0,3731,1019,1611,1376,2837,3308,0.2844,0.00363,0.00375,0.1155,0.645,0.2925
+25,"Find the missing term: 2, 6, 12, 20, ?",Reasoning,Complex,8.6,7.7,9.7,6.2,6.7,6.5,2652,8766,3098,14861,4749,4140,0.00678,0.2679,0.2245,0.04977,1.665,0.5
+21,"In a certain code, PAPER is written as OZODQ. How is PEN written?",Reasoning,Complex,10.0,3.0,10.0,10.0,10.0,10.0,3915,12590,2924,4401,7364,5729,0.01478,0.2154,0.2705,0.01305,2.5395,0.684
+24,"If today is Monday, what day will it be after 45 days?",Reasoning,Complex,9.6,9.0,6.0,6.6,7.7,7.0,1247,5107,2724,3285,3822,3358,0.00357,0.2805,0.14475,0.009585,1.1745,0.3715
+16,A can complete a work in 10 days and B in 15 days. In how many days will they complete it together?,Reasoning,Complex,8.5,6.3,8.7,8.4,6.6,8.5,1131,7841,2323,9249,5603,6280,0.00384,0.4248,0.2845,0.02499,2.04,0.69
+26,A clock shows 7:20. What is the angle between the hour and minute hand?,Reasoning,Complex,7.0,9.0,10.0,9.0,9.0,9.0,3056,4279,10407,7009,6351,5023,0.0074,0.33975,0.4407,0.022605,2.439,0.628
+29,"If the ratio of ages of A and B is 4:5 and B is 10 years older than A, find their ages.",Reasoning,Complex,9.7,6.4,6.6,7.5,9.5,7.4,1388,2638,4602,4589,5905,5266,0.00463,0.206,0.2379,0.01476,2.0655,0.671
+17,A sum becomes double in 5 years at simple interest. What is the rate of interest?,Reasoning,Complex,6.1,7.8,8.7,6.4,8.3,8.9,2335,6907,2282,5736,6779,5162,0.0106,0.3432,0.23175,0.020805,2.3205,0.651
+28,A cube is painted on all faces and cut into 64 smaller cubes. How many cubes have exactly two faces painted?,Reasoning,Complex,10.0,7.0,10.0,10.0,10.0,10.0,3736,11664,10702,7966,8633,7528,0.01235,0.2877,0.371,0.02058,2.6835,0.8645
